@@ -1,7 +1,9 @@
-void setup() {
+#include <dosya.h>
 
+void setup() {
+Serial.begin(115200);
 }
 
 void loop() {
-
+logla();
 }
